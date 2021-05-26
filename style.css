@@ -1,0 +1,84 @@
+.logoo img{
+    width: 20%;
+}
+.menuu{}
+.menuu li{
+    position: relative;
+}
+.menuu li a{
+    color: #fff;
+
+}
+/* dropwodn */
+.menuu li ul{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 230px;
+    padding: 0;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transform: scaleY(0);
+    transition: .5s;
+    transform-origin: top center;
+    background: rgba(22, 22, 22, 0.37);
+}
+.menuu li:hover ul{
+    visibility: visible;
+    opacity: 1;
+    transform: scaleY(1);
+}
+.menuu li ul li{
+    display: block;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #000;
+}
+.menuu li ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 0;
+}
+.hader-btnnn{
+    position: relative;
+}
+.hader-btnnn input{
+    width: 23px;
+}
+.hader-btnnn span i{
+    color: red;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.main-inner-div{
+    border: 1px solid #444;
+    background-color: rgb(193, 251, 175);
+}
+
+.banner-caption {
+	position: absolute;
+	top: 73px;
+	color: red;
+}
+.banner-caption h3{
+    font-size: 45px;
+}
+.banner-caption p{
+    font-size: 22px;
+}
+.line-bottom {
+	position: absolute;
+	bottom: 70px;
+}
+.arowww{}
+.arowww span{}
+
+.cro-img{
+    height: 350px;
+}
+.cro-img img{
+    height: 100%;
+}
